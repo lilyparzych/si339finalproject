@@ -1,0 +1,27 @@
+.elementary img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: aquamarine;
+}
+.middle img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: pink;
+}
+#intro{
+    width: 200px;
+    
+}
+
+img{
+    border: 5px solid black;
+    padding: 5px;
+}

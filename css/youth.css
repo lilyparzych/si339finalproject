@@ -1,19 +1,17 @@
-.elementary img{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 200px;
-    background-color: aquamarine;
-}
-.middle img{
+.elementary {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 200px;
+    background-color: aquamarine;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: pink;
 }
 #intro{
@@ -24,4 +22,36 @@
 img{
     border: 5px solid black;
     padding: 5px;
+    width: 200px;
 }
+
+/* .header {
+    padding: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 22px;
+} */
+
+/* .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+  
+/* .nav li {
+    float: left;
+} */
+/* .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+  /* Change the link color to #111 (black) on hover */
+/* .nav li a:hover {
+    background-color: #111;
+  } */

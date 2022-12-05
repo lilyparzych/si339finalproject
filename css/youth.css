@@ -1,4 +1,7 @@
 @media only screen and (max-width: 600px) {
+    img{    
+        width: 200px;
+    } 
     h2 {
         color: #34113F;
         text-align: center;
@@ -19,19 +22,12 @@
     align-items: center;
 }
 #intro {
-    /* width: 50%;
-    align-items: center; */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-     width: 50%;
-    
+    margin: auto;
+    text-align: center;
 }
-
-img{
-    border: 7px solid #34113F;
-    
-    width: 200px;
+#intro img {
+    width: 250px;
 }
 
 body {
@@ -82,7 +78,7 @@ body {
 
 #skip {
    text-align: center; 
-   background-color: #FF7070;
+   background-color: #34113F;
    text-decoration: none;
    font-family: "century gothic";
    color: #fff;
@@ -95,14 +91,11 @@ body {
     color:#fff;
  }
 figure {
-    border: 3px #34113F solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 215px;
     margin: auto;
 }
-
 
 figcaption {
     background-color: #34113F;
@@ -111,14 +104,38 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+footer {
+    text-align: center;
+}
+footer p {
+    color:#34113F;
 }
 
-@media only screen and (min-width: 600px) {
-    h2 {
-        color: #34113F;
-        text-align: center;
-        font-family: "century gothic";
-    }
+.hor img {
+    width: 225px;
+}
+.hor figure {
+    width: 225px;
+}
+.vert img {
+    width: 195px;
+}
+.vert figure {
+    width: 195px;
+}
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+
+img{
+    width: 200px;
+}
+h2 {
+    color: #34113F;
+    text-align: center;
+    font-family: "century gothic";
+}
 .elementary {
     display: flex;
     flex-direction: row;
@@ -141,12 +158,6 @@ figcaption {
     margin-right: auto;
      width: 20%;
     
-}
-
-img{
-    border: 7px solid #34113F;
-    
-    width: 200px;
 }
 
 body {
@@ -198,7 +209,7 @@ body {
 
 #skip {
    text-align: center; 
-   background-color: #FF7070;
+   background-color: #34113F;
    text-decoration: none;
    font-family: "century gothic";
 }
@@ -211,14 +222,11 @@ body {
  }
 
 figure {
-    border: 3px #34113F solid;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 215px;
     margin: auto;
 }
-
 
 figcaption {
     background-color: #34113F;
@@ -234,4 +242,164 @@ footer p {
     color: #34113F;
 }
 
+.hor img {
+    width: 300px;
 }
+.hor figure {
+    width: 300px;
+}
+.vert img {
+    width: 225px;
+}
+.vert figure {
+    width: 225px;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+    img{
+        width: 200px;
+    }
+    h2 {
+        color: #34113F;
+        text-align: center;
+        font-family: "century gothic";
+    }
+    .elementary {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .middle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #intro {
+        /* width: 50%;
+        align-items: center; */
+        display: block;
+        text-align: center;
+    }
+
+    #intro img {
+        width: 400px;
+        text-align:center;
+    }
+    
+    body {
+        background-image: linear-gradient(to bottom right, #beb7df, #D6F6DD);
+    }
+    
+    .header {
+        padding: 2px;
+        text-align: center;
+        /* background: #FF7070; */
+        background-image: linear-gradient(to bottom right, #f44747, #fb8989);
+        color: white;
+        font-size: 100%;
+        font-family: "century gothic";
+        font-weight: 400px;
+    }
+    
+    .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #34113F;
+        text-align: center;
+    }
+      
+    .nav li {
+        /* float: left; */
+        display: inline;
+        
+    }
+    .nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        display: inline-block;
+        
+    }
+    .nav {
+        font-family: "century gothic";
+    }
+    
+    .nav li a:hover {
+        background-color: #BEB7DF;
+      }
+    
+    
+    #skip {
+       text-align: center; 
+       background-color: #34113F;
+       text-decoration: none;
+       font-family: "century gothic";
+    }
+    #skip a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    #skip a {
+        color:#fff;
+     }
+    
+    figure {
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    figcaption {
+        background-color: #34113F;
+        color: #fff;
+        font-family: "century gothic";
+        padding: 3px;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    footer p {
+        color: #34113F;
+    }
+    
+    .hor img {
+        width: 400px;
+    }
+    .hor figure {
+        width: 400px;
+    }
+    .vert img {
+        width: 325px;
+    }
+    .vert figure {
+        width: 325px;
+    }
+
+
+}
+#skip a {
+    text-decoration: none;
+    font-size: 0.6cm;
+}
+
+#skip {
+    margin-bottom: 10px;
+}
+footer {
+    font-family: "century gothic";
+}
+:focus {
+    border: 2px solid;
+  }

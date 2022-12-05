@@ -1,0 +1,181 @@
+img {
+    width: 200px;
+}
+
+.header {
+    padding: 2px;
+    text-align: center;
+    /* background: #FF7070; */
+    background-image: linear-gradient(to bottom, #93c5c5, #51a3a3);
+    color: white;
+    font-size: 100%;
+    font-family: "century gothic";
+    font-weight: 400px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #51a3a3, #93c5c5);
+    text-align: center;
+}
+  
+.nav li {
+    /* float: left; */
+    display: inline;
+    
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6cm;
+    
+}
+.nav {
+    font-family: "century gothic";
+}
+
+.nav li a:hover {
+    background-color: #98a6d4;
+  }
+
+
+#skip {
+   text-align: center; 
+   background-image: linear-gradient(to bottom, #93c5c5, #51a3a3);
+   text-decoration: none;
+   font-family: "century gothic";
+   margin-bottom: 10px;
+}
+#skip a:visited {
+    color: white;
+    text-decoration: none;
+}
+#skip a {
+    color:#fff;
+    font-size: 0.55cm;
+    text-decoration: none;
+ }
+
+body {
+    background-image: linear-gradient(to bottom right, #3b3561, #2e2950);
+}
+p {
+    color: #fff;
+    font-weight: 400;
+    font-family: "century gothic";
+    font-size: 0.7cm;
+    text-align: center;
+}
+.funfacts {
+    color: #fff;
+}
+.eras{
+    text-align:center;
+    padding: 20px;
+}
+.eras img {
+    width: 500px;
+}
+h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "century gothic";
+    font-size: 1cm;
+    background-image: linear-gradient(to bottom right, #51a3a3, #93c5c5);
+    margin: 30px;
+    padding: 50px;
+}
+.funfacts {
+    text-align:center;
+}
+.funfacts ul {
+    text-align: center;
+    background-color: #dd7373;
+}
+.funfacts li {
+    text-align: center;
+    font-family: "century gothic";
+    font-size: 0.9cm;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    font-size: .45cm;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav li a {
+        font-size: 0.52cm;
+    }
+    .header h1 {
+        font-size: 0.8cm;
+    }
+    .eras img{
+        width: 400px;
+    }
+    .intro p {
+        font-size: .51cm;
+        font-weight: 550;
+    }
+    .intro h2{
+        font-size: .63cm;
+        padding: 17px;
+    }
+    .funfacts li {
+        font-size: .5cm;
+
+    }
+    .funfacts ul {
+        background-image: linear-gradient(to bottom right, #51a3a3, #399696);
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+.eras img {
+    width: 430px;
+}
+.intro p {
+    font-size: .63cm;
+}
+.intro h2{
+    font-size: .83cm;
+    padding: 17px;
+}
+.funfacts li {
+    font-size: .6cm;
+
+}
+/* .funfacts ul {
+    background-image: linear-gradient(to bottom right, #51a3a3, #399696);
+} */
+}
+@media only screen and (min-width: 768px) {
+    .eras img {
+        width: 470px;
+    }
+    .eras {
+        padding-bottom: 7px;
+    }
+    .intro p {
+        font-size: .74cm;
+    }
+    .intro h2{
+        font-size: .95cm;
+        padding: 17px;
+    }
+    .funfacts li {
+        font-size: .7cm;
+    
+    }
+}
+:focus {
+    border: 2px solid;
+  }

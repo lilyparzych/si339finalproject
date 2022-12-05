@@ -1,0 +1,224 @@
+body {
+    background-image: linear-gradient(to bottom right, #5d737e, #406070);
+}
+
+.header {
+    padding: 2px;
+    text-align: center;
+    /* background: #FF7070; */
+    background-color: #f7eab5;
+    color: #2f5264;
+    font-size: 100%;
+    font-family: "century gothic";
+    font-weight: 400px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7eab5;
+    text-align: center;
+}
+  
+.nav li {
+    /* float: left; */
+    display: inline;
+    
+}
+.nav li a {
+    display: block;
+    color: #2f5264;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6cm;
+    
+}
+.nav {
+    font-family: "century gothic";
+}
+
+.nav li a:hover {
+    background-color: #d9fcfb;
+  }
+
+
+#skip {
+   text-align: center; 
+   background-color: #f7eab5;
+   text-decoration: none;
+   font-family: "century gothic";
+   margin-bottom: 10px;
+}
+#skip a:visited {
+    color: #2f5264;
+    text-decoration: none;
+}
+#skip a {
+    color:#2f5264;
+    font-size: 0.55cm;
+    text-decoration: none;
+ }
+
+img {
+    width: 300px;
+}
+
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #2f5264;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .row{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+footer {
+    text-align: center;
+    font-family: "century gothic";
+}
+footer p {
+    color: #f7eab5;
+}
+/* #skip {
+  position: absolute;
+  top: -20px;
+} */
+
+/* #skip:focus {
+  position: absolute;
+  top: 20px;
+} */
+
+:focus {
+  border: 2px solid;
+}

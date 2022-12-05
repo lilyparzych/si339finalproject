@@ -4,27 +4,165 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<a href="#main">Skip To Main Content</a>
-<link rel=stylesheet href="css/style.css"> 
+<div id='skip'><a href="#main">Jump to Content</a></div>
+<link rel="stylesheet" href="css/college.css"> 
 <title>My College Era</title>
 </head> 
 <body>
     <header>
         <div class = "nav">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="youth.html">Youth Era</a> 
-                <a href="hs.html">High School Era</a>
-                <a href="college.html">College Era</a>
-                <a href="years.html">Lily Through the Years</a>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="youth.html">Youth Era</a></li>
+                <li><a href="hs.html">High School Era</a></li>
+                <li><a href="college.html">College Era</a></li>
+            </ul>
             </nav>
         </div>
+        <div class="header">
         <h1>My College Era</h1>
-        <img src="http://www.popiconsblog.com/uploads/9/9/4/4/9944728/the-10-best-britney-spears-songs-according-to-pop-icons_orig.png" />
+        </div>
     </header>
 <main id = "main">
-    
+<!-- Images used to open the lightbox -->
+<div class="row">
+    <div class="column hor">
+      <img src="images/dorm.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column vert">
+      <img src="images/sylvan.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column hor">
+      <img src="images/katiegrogu.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column vert">
+      <img src="images/momswknd.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+    <div class="column vert">
+      <img src="images/dadwknd.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+    <div class="column vert">
+      <img src="images/diagdogs.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="images/dorm.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/sylvan.JPG" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/katiegrogu.jpeg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/momswknd.JPG" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/dadwknd.JPG" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/diagdogs.jpeg" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="images/dorm.jpeg" onclick="currentSlide(1)" alt="Me in my dorm room freshman year">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/sylvan.JPG" onclick="currentSlide(2)" alt="My roommates and I in our house second semester freshman year.">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/katiegrogu.jpeg" onclick="currentSlide(3)" alt="Me and my friend posing with our beloved Grogu stuffed animal.">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="images/momswknd.JPG" onclick="currentSlide(4)" alt="My mom at a party with a bunch of college kids behind her.">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="images/dadwknd.JPG" onclick="currentSlide(5)" alt="My dad, brother, and I with my friend Maddie and her dad in game day clothes!">
+      </div>
+
+      <div class="column">
+        <img class="demo" src="images/diagdogs.jpeg" onclick="currentSlide(6)" alt="Me and my best friend with her dog at the Dogs in the Diag event during finals Winter 2022">
+      </div>
+    </div>
+  </div>    
    
 </main>
+<footer>
+  <p>Lily Parzych, SI 339, 2022</p>
+</footer>
+<script>
+  // Open the Modal
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  // Close the Modal
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
 </body>   
 </html>

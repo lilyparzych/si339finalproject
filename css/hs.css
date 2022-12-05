@@ -398,12 +398,11 @@ footer p {
         font-family: "century gothic";
      }
     
-     #intro {
+    #intro {
         text-align: center;
         padding: 20px;
-        border: solid 10px linear-gradient(to bottom right, #ff2c55, #de1940);
         background-image: linear-gradient(to bottom right, #ff2c55, #de1940);
-     }
+    }
      figure {
         border: 3px #e3dfff solid;
         display: flex;
@@ -535,7 +534,6 @@ footer p {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        /* background-color: #B1072F; */
         background-color: #3c0919;
         text-align: center;
     }
@@ -707,3 +705,18 @@ footer p {
 }
 
 }
+
+#skip a {
+    text-decoration: none;
+    font-size: 0.6cm;
+}
+
+#skip {
+    margin-bottom: 10px;
+}
+footer {
+    font-family: "century gothic";
+}
+:focus {
+    border: 2px solid;
+  }

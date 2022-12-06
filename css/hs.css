@@ -11,23 +11,17 @@ img {
 
 .freshsoph {
     display: grid;
+    justify-content: center;
+    align-content:center;
 }
 
 .junsen {
     display: grid;
+    justify-content: center;
+    align-content:center;
 }
 body{
     background-image: linear-gradient(to bottom right, #e3dfff, #ccc4ff);
-}
-.header {
-    padding: 2px;
-    text-align: center;
-    
-    background-image: linear-gradient(to bottom right, #3c0919, #521b2d);
-    color: white;
-    font-size: 100%;
-    font-family: "century gothic";
-    font-weight: 400px;
 }
 
 .header {
@@ -36,7 +30,7 @@ body{
     /* background: #FF7070; */
     background-image: linear-gradient(to bottom right, #3c0919, #521b2d);
     color: white;
-    font-size: 100%;
+    font-size: 70%;
     font-family: "century gothic";
     font-weight: 400px;
 }
@@ -46,68 +40,50 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #B1072F; */
     background-color: #3c0919;
     text-align: center;
 }
   
 .nav li {
-    /* float: left; */
     display: inline;
-    
 }
+
 .nav li a {
     display: block;
     color: #fff;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
-    display: inline-block;
-    font-weight: 900px;
+    font-size: .4cm;
 }
 .nav {
     font-family: "century gothic";
 }
-  /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
     background-color: #e3dfff;
     color: #3c0919;
   }
-  #skip {
-    text-align: center; 
-    background-color: #3c0919;
-    text-decoration: none;
-    font-family: "century gothic";
-    color:#fff;
- }
- #skip a:visited {
-     color: white;
-     text-decoration: none;
- }
- #skip a {
-    color:#fff;
- }
-
  h2 {
-    color: #3c0919;
+    color: #fff;
     text-align: center;
     font-family: "century gothic";
+    background-color: #3c0919;
+    padding: 10px;
  }
-
  #intro {
     text-align: center;
     padding: 20px;
  }
+ #intro img {
+    width: 300px;
+ }
  figure {
-    /* border: 3px #ff2c55 solid; */
     display: flex;
     flex-flow: column;
     padding: 5px;
     margin: auto;
     width: 300px;
 }
-
-
 figcaption {
     background-color: #3c0919;
     color: #fff;
@@ -140,7 +116,6 @@ footer p {
     img {
         width: 200px;
     }
-    
     .cxc {
         display: grid;
         justify-content: center;
@@ -194,8 +169,7 @@ footer p {
     }
     #item6 img {
         width: 440px;
-    }
-    
+    }    
     .upper {
         display: grid;
         justify-content: center;
@@ -227,14 +201,12 @@ footer p {
     .header {
         padding: 2px;
         text-align: center;
-        /* background: #FF7070; */
         background-image: linear-gradient(to bottom right, #3c0919, #521b2d);
         color: white;
         font-size: 100%;
         font-family: "century gothic";
         font-weight: 400px;
     }
-    
     .nav ul {
         list-style-type: none;
         margin: 0;
@@ -243,10 +215,8 @@ footer p {
         /* background-color: #B1072F; */
         background-color: #3c0919;
         text-align: center;
-    }
-      
+    }    
     .nav li {
-        /* float: left; */
         display: inline;
         
     }
@@ -258,30 +228,15 @@ footer p {
         text-decoration: none;
         display: inline-block;
         font-weight: 900px;
+        font-size: .5cm;
     }
     .nav {
         font-family: "century gothic";
     }
-      /* Change the link color to #111 (black) on hover */
     .nav li a:hover {
         background-color: #e3dfff;
         color: #3c0919;
       }
-      #skip {
-        text-align: center; 
-        background-color: #3c0919;
-        text-decoration: none;
-        font-family: "century gothic";
-        color:#fff;
-     }
-     #skip a:visited {
-         color: white;
-         text-decoration: none;
-     }
-     #skip a {
-        color:#fff;
-     }
-    
      h2 {
         color: #3c0919;
         text-align: center;
@@ -368,36 +323,20 @@ footer p {
         text-decoration: none;
         display: inline-block;
         font-weight: 500;
+        font-size: .6cm;
     }
     .nav {
         font-family: "century gothic";
     }
-      /* Change the link color to #111 (black) on hover */
     .nav li a:hover {
         background-color: #e3dfff;
         color: #3c0919;
       }
-      #skip {
-        text-align: center; 
-        background-color: #3c0919;
-        text-decoration: none;
-        font-family: "century gothic";
-        color:#fff;
-     }
-     #skip a:visited {
-         color: white;
-         text-decoration: none;
-     }
-     #skip a {
-        color:#fff;
-     }
-    
      h2 {
         color: #3c0919;
         text-align: center;
         font-family: "century gothic";
      }
-    
     #intro {
         text-align: center;
         padding: 20px;
@@ -539,7 +478,7 @@ footer p {
     }
       
     .nav li {
-        /* float: left; */
+        
         display: inline;
         
     }
@@ -551,34 +490,22 @@ footer p {
         text-decoration: none;
         display: inline-block;
         font-weight: 500;
+        font-size: .6cm;
     }
     .nav {
         font-family: "century gothic";
     }
-      /* Change the link color to #111 (black) on hover */
+      
     .nav li a:hover {
         background-color: #e3dfff;
         color: #3c0919;
       }
-      #skip {
-        text-align: center; 
-        background-color: #3c0919;
-        text-decoration: none;
-        font-family: "century gothic";
-        color:#fff;
-     }
-     #skip a:visited {
-         color: white;
-         text-decoration: none;
-     }
-     #skip a {
-        color:#fff;
-     }
-    
+
      h2 {
         color: #3c0919;
         text-align: center;
         font-family: "century gothic";
+        font-size: .8cm;
      }
     
      #intro {
@@ -706,17 +633,31 @@ footer p {
 
 }
 
-#skip a {
-    text-decoration: none;
-    font-size: 0.6cm;
-}
-
-#skip {
-    margin-bottom: 10px;
-}
 footer {
     font-family: "century gothic";
 }
+
 :focus {
-    border: 2px solid;
-  }
+    border: 3px solid;
+}
+
+.skip {
+    font-size: 150%;
+}
+  
+.skip a {
+    position: relative;
+    top: -5rem;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    color: #fff;
+    background-color: #3c0919;
+    font-family: "century gothic";
+    font-size: .5cm;
+    padding: 7px;
+}
+
+.skip a:focus {
+    top: 20px;
+}

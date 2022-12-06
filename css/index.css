@@ -1,11 +1,29 @@
 img {
     width: 200px;
 }
+.skip {
+    font-size: 150%;
+}
+ 
+.skip a {
+    position: relative;
+    top: -5rem;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    color: #fff;
+    background-color: #2f6e6e;
+    font-family: "century gothic";
+    font-size: .5cm;
+    padding: 7px;
+}
 
+.skip a:focus {
+    top: 20px;
+}
 .header {
     padding: 2px;
     text-align: center;
-    /* background: #FF7070; */
     background-image: linear-gradient(to bottom, #93c5c5, #51a3a3);
     color: white;
     font-size: 100%;
@@ -23,7 +41,6 @@ img {
 }
   
 .nav li {
-    /* float: left; */
     display: inline;
     
 }
@@ -44,24 +61,6 @@ img {
 .nav li a:hover {
     background-color: #98a6d4;
   }
-
-
-#skip {
-   text-align: center; 
-   background-image: linear-gradient(to bottom, #93c5c5, #51a3a3);
-   text-decoration: none;
-   font-family: "century gothic";
-   margin-bottom: 10px;
-}
-#skip a:visited {
-    color: white;
-    text-decoration: none;
-}
-#skip a {
-    color:#fff;
-    font-size: 0.55cm;
-    text-decoration: none;
- }
 
 body {
     background-image: linear-gradient(to bottom right, #3b3561, #2e2950);
@@ -153,9 +152,7 @@ footer p {
     font-size: .6cm;
 
 }
-/* .funfacts ul {
-    background-image: linear-gradient(to bottom right, #51a3a3, #399696);
-} */
+
 }
 @media only screen and (min-width: 768px) {
     .eras img {
@@ -177,5 +174,5 @@ footer p {
     }
 }
 :focus {
-    border: 2px solid;
-  }
+    border: 3px solid;
+}

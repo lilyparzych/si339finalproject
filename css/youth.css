@@ -1,3 +1,13 @@
+footer {
+    font-family: "century gothic";
+}
+:focus {
+    border: 2px solid;
+  }
+#intro img {
+    margin: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     img{    
         width: 200px;
@@ -9,15 +19,15 @@
     }
 .elementary {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .middle {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -27,24 +37,21 @@
     text-align: center;
 }
 #intro img {
-    width: 250px;
+    width: 350px;
 }
-
 body {
     background-image: linear-gradient(to bottom right, #beb7df, #D6F6DD);
 }
-
 .header {
     padding: 2px;
     text-align: center;
     /* background: #FF7070; */
     background-image: linear-gradient(to bottom right, #f44747, #fb8989);
     color: white;
-    font-size: 100%;
+    font-size: 70%;
     font-family: "century gothic";
     font-weight: 400px;
 }
-
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -53,7 +60,6 @@ body {
     background-color: #34113F;
     text-align: center;
 }
-  
 .nav li {
     /* float: left; */
     display: inline;
@@ -65,38 +71,20 @@ body {
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
-    display: inline-block;
-    
+    font-size: .4cm;
 }
 .nav {
     font-family: "century gothic";
 }
-  /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
     background-color: #BEB7DF;
   }
-
-#skip {
-   text-align: center; 
-   background-color: #34113F;
-   text-decoration: none;
-   font-family: "century gothic";
-   color: #fff;
-}
-#skip a:visited {
-    color: white;
-    text-decoration: none;
-}
-#skip a {
-    color:#fff;
- }
 figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
     margin: auto;
 }
-
 figcaption {
     background-color: #34113F;
     color: #fff;
@@ -112,22 +100,20 @@ footer p {
 }
 
 .hor img {
-    width: 225px;
+    width: 350px;
 }
 .hor figure {
-    width: 225px;
+    width: 350px;
 }
 .vert img {
-    width: 195px;
+    width: 275px;
 }
 .vert figure {
-    width: 195px;
+    width: 275px;
 }
-
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px){
-
 img{
     width: 200px;
 }
@@ -147,23 +133,21 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 #intro {
-    /* width: 50%;
-    align-items: center; */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-     width: 20%;
-    
+    margin: auto;
+    text-align: center;
 }
-
+#intro img{
+    text-align: center;
+    width: 450px;
+}
 body {
     background-image: linear-gradient(to bottom right, #beb7df, #D6F6DD);
 }
-
 .header {
     padding: 2px;
     text-align: center;
@@ -174,7 +158,6 @@ body {
     font-family: "century gothic";
     font-weight: 400px;
 }
-
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -182,8 +165,7 @@ body {
     overflow: hidden;
     background-color: #34113F;
     text-align: center;
-}
-  
+} 
 .nav li {
     /* float: left; */
     display: inline;
@@ -196,38 +178,20 @@ body {
     padding: 10px 12px;
     text-decoration: none;
     display: inline-block;
-    
+    font-size: .5cm;
 }
 .nav {
     font-family: "century gothic";
 }
-
 .nav li a:hover {
     background-color: #BEB7DF;
   }
-
-
-#skip {
-   text-align: center; 
-   background-color: #34113F;
-   text-decoration: none;
-   font-family: "century gothic";
-}
-#skip a:visited {
-    color: white;
-    text-decoration: none;
-}
-#skip a {
-    color:#fff;
- }
-
 figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
     margin: auto;
 }
-
 figcaption {
     background-color: #34113F;
     color: #fff;
@@ -241,18 +205,17 @@ footer {
 footer p {
     color: #34113F;
 }
-
 .hor img {
-    width: 300px;
+    width: 330px;
 }
 .hor figure {
-    width: 300px;
+    width: 330px;
 }
 .vert img {
-    width: 225px;
+    width: 250px;
 }
 .vert figure {
-    width: 225px;
+    width: 250px;
 }
 
 }
@@ -281,21 +244,16 @@ footer p {
         align-items: center;
     }
     #intro {
-        /* width: 50%;
-        align-items: center; */
         display: block;
         text-align: center;
     }
-
     #intro img {
         width: 400px;
         text-align:center;
-    }
-    
+    } 
     body {
         background-image: linear-gradient(to bottom right, #beb7df, #D6F6DD);
     }
-    
     .header {
         padding: 2px;
         text-align: center;
@@ -306,7 +264,6 @@ footer p {
         font-family: "century gothic";
         font-weight: 400px;
     }
-    
     .nav ul {
         list-style-type: none;
         margin: 0;
@@ -315,7 +272,6 @@ footer p {
         background-color: #34113F;
         text-align: center;
     }
-      
     .nav li {
         /* float: left; */
         display: inline;
@@ -328,38 +284,20 @@ footer p {
         padding: 10px 12px;
         text-decoration: none;
         display: inline-block;
-        
+        font-size: .6cm;
     }
     .nav {
         font-family: "century gothic";
     }
-    
     .nav li a:hover {
         background-color: #BEB7DF;
       }
-    
-    
-    #skip {
-       text-align: center; 
-       background-color: #34113F;
-       text-decoration: none;
-       font-family: "century gothic";
-    }
-    #skip a:visited {
-        color: white;
-        text-decoration: none;
-    }
-    #skip a {
-        color:#fff;
-     }
-    
     figure {
         display: flex;
         flex-flow: column;
         padding: 5px;
         margin: auto;
     }
-    
     figcaption {
         background-color: #34113F;
         color: #fff;
@@ -373,7 +311,6 @@ footer p {
     footer p {
         color: #34113F;
     }
-    
     .hor img {
         width: 400px;
     }
@@ -386,20 +323,24 @@ footer p {
     .vert figure {
         width: 325px;
     }
-
-
 }
-#skip a {
-    text-decoration: none;
-    font-size: 0.6cm;
+.skip {
+    font-size: 150%;
 }
-
-#skip {
-    margin-bottom: 10px;
-}
-footer {
+ 
+.skip a {
+    position: relative;
+    top: -5rem;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    color: #fff;
+    background-color: #34113F;
     font-family: "century gothic";
+    font-size: .5cm;
+    padding: 7px;
 }
-:focus {
-    border: 2px solid;
-  }
+
+.skip a:focus {
+    top: 20px;
+}
